@@ -119,7 +119,7 @@ I use the documentation a lot in this course. Here are all the links that are vi
 - Use CloudWatch Alarms to notify if you need "thresholds" for failures
 - CloudWatch Events / AWS Lambda as a Glue
 - SNS notifications
-
+### sample of buildspec.yml file
 ```
 version: 0.2
 
