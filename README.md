@@ -159,3 +159,35 @@ artifacts:
 - Application is pulled from GitHub or S3
 - EC2 will run the deployment instructions
 - CodeDeploy Agent will report of success / failure of deployment on the instance
+### sample of appspec.yml file
+```
+version: 0.0
+os: linux
+files:
+   - source: /index.html
+      destination: /var/www/html
+hooks:
+   ApplicationStop:
+      - location: scripts/stop_server.sh
+        timeout: 300
+        runas: root
+        
+   AfterInstall:
+      - location: scripts/after_install.sh
+        timeout: 300
+        runas: root
+        
+   BeforeInstall:
+      - location: scripts/install_dependencies.sh
+        timeout: 300
+        runas: root
+        
+   ApplicationStart:
+      - location: scripts/start_server.sh
+        timeout: 300
+        runas: root
+        
+   ValidateService:
+      - location: scripts/validate_service.sh
+        timeout: 300
+```        
