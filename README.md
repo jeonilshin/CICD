@@ -4,7 +4,7 @@
 - A testing / build server checks the code as soon as it's pushed (CodeBuild / Jenkins CI / etc...)
 - The developer gets feedback about the tests and checks that have passed / failed
 
-**[Overall]
+**[Overall]**
 
 - Find bugs early, fix bugs
 - Deliver faster as the code is tested
