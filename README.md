@@ -81,3 +81,25 @@ I use the documentation a lot in this course. Here are all the links that are vi
 - https://wiki.jenkins.io/display/JENKINS/Amazon+EC2+Container+Service+Plugin
 - https://wiki.jenkins.io/display/JENKINS/Artifact+Manager+S3+Plugin
 - https://wiki.jenkins.io/display/JENKINS/AWS+CodePipeline+Plugin
+
+# CodeCommit
+- **Version Control** is the ability to understand the various changes that happened to the code over time (and possible roll back).
+- All these are enabled by using a version control system such as Git
+- A Git repository can live on one's machine, but it usually lives on a central online repository
+- Benefits are:
+   - Collaborate with other develops
+   - Make sure the code is backed-up somewhere
+   - Make sure it's fully viewable and auditable
+- Git repositories can be expensive.
+- The industry icludes:
+   - GitHub: free public repositories, paid private ones
+   - BitBucket
+   - Etc...
+- And AWS CodeCommit:
+   - private Git repositories
+   - No size limit on repositories (scale seamlessly)
+   - Fully managed, highly available
+   - Code only in AWS Cloud account => increased security and compliance
+   - Secure (encrypted, access control, etc...)
+   - Integrated with Jenkins / CodeBuild / other CI tools
+ 
