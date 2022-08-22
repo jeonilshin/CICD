@@ -81,4 +81,3 @@ I use the documentation a lot in this course. Here are all the links that are vi
 - https://wiki.jenkins.io/display/JENKINS/Amazon+EC2+Container+Service+Plugin
 - https://wiki.jenkins.io/display/JENKINS/Artifact+Manager+S3+Plugin
 - https://wiki.jenkins.io/display/JENKINS/AWS+CodePipeline+Plugin
-This is test
