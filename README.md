@@ -9,3 +9,13 @@
 - Deliver faster as the code is tested
 - Deploy often
 - Happier developers, as they're unblocked
+
+### Continuous Delivery
+- Ensure that the software can be released reliably whenever needed
+- Ensures deployments happen often and are quick
+- Shift away from "one release every 3 months" to "5 releases a day"
+- That usally means automated deployment
+   - Code Deploy
+   - Jenkins CD
+   - Spinnaker
+   - Etc...
