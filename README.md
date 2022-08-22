@@ -5,7 +5,6 @@
 - The developer gets feedback about the tests and checks that have passed / failed
 
 **[Overall]**
-
 - Find bugs early, fix bugs
 - Deliver faster as the code is tested
 - Deploy often
