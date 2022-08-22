@@ -10,6 +10,8 @@
 - Deploy often
 - Happier developers, as they're unblocked
 
+https://user-images.githubusercontent.com/86287920/185819995-77f33331-a56a-4904-8539-acfe9ae7675f.png
+
 ### Continuous Delivery
 - Ensure that the software can be released reliably whenever needed
 - Ensures deployments happen often and are quick
@@ -19,3 +21,5 @@
    - Jenkins CD
    - Spinnaker
    - Etc...
+
+https://user-images.githubusercontent.com/86287920/185819996-44cd6c8a-5eec-46bd-8533-bb6ec6087539.png
