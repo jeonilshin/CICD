@@ -103,3 +103,13 @@ I use the documentation a lot in this course. Here are all the links that are vi
    - Secure (encrypted, access control, etc...)
    - Integrated with Jenkins / CodeBuild / other CI tools
  
+# CodeBuild
+- Fully managed build service
+- Alternative to other build tools such as Jenkins
+- Continuous scaling (no servers to managed or provision - no build queue)
+- Pay for usage: the time it takes to complete the builds
+- Leverages Docker under the hood for reproducible builds
+- Possibility to extend capabilities leveraging our own base Docker images
+- Secure: Integration with KMS for encryption of build artifacts, IAM for build permissions, and VPC for network security, CloudTrail for API calls logging
+- Source Code from GitHub / CodeCommit / CodePipeline / S3...
+- Build instructions can be define in code (buildspec.yml file)
