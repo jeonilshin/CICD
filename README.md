@@ -113,3 +113,30 @@ I use the documentation a lot in this course. Here are all the links that are vi
 - Secure: Integration with KMS for encryption of build artifacts, IAM for build permissions, and VPC for network security, CloudTrail for API calls logging
 - Source Code from GitHub / CodeCommit / CodePipeline / S3...
 - Build instructions can be define in code (buildspec.yml file)
+- Output logs to Amazon S3 & AWS CloudWatch Logs
+- Metrics to monitor CodeBuild statisitcs
+- Use CloudWatch Events to detect failed builds and trigger notifications
+- Use CloudWatch Alarms to notify if you need "thresholds" for failures
+- CloudWatch Events / AWS Lambda as a Glue
+- SNS notifications
+
+```
+version: 0.2
+
+phases:
+build:
+  commands:
+    - echo Building...
+artifacts:
+  files:
+    - '**/*'
+  secondary-artifacts:
+    artifact1:
+      files:
+        - directory/file1
+      name: secondary-artifact-name-1
+    artifact2:
+      files:
+        - directory/file2
+      name: secondary-artifact-name-2
+```      
