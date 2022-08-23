@@ -206,3 +206,11 @@ hooks:
 ### AWS CodePipeline Artifacts
 - Each pipeline stage can create "artifacts"
 - Artifacts are passed stored in Amazon S3 and passed on to the next stage
+
+# Jenkins on AWS
+- Open Source CICD tool
+- Can replace CodeBuild, CodePipeline & CodeDeploy
+- Must be deployed in a Master / Slave configuration
+- Must manage multi-AZ, deploy on EC2 etc...
+- All projects must have a "Jenkinsfile" (similar to buildspec.yml) to tell Jenkins what to do
+- Jenkins can be extended on AWS thanks to many plugins!
